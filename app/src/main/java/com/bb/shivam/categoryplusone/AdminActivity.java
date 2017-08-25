@@ -1,5 +1,6 @@
 package com.bb.shivam.categoryplusone;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -33,21 +34,35 @@ public class AdminActivity extends AppCompatActivity implements View.OnClickList
 
     @Override
     public void onClick(View view) {
-
+        Intent intent;
         switch(view.getId()){
             case R.id.bAddCategory:
+                intent = new Intent(this, AddCategoryActivity.class);
+                startActivity(intent);
                 break;
             case R.id.bAddSubCategory:
+                intent = new Intent(this, AddSubCategoryActivity.class);
+                startActivity(intent);
                 break;
             case R.id.bAddProduct:
+                intent = new Intent(this, AddProductActivity.class);
+                startActivity(intent);
                 break;
             case R.id.bModifyCategoryName:
+                intent = new Intent(this, ModifyCategoryNameActivity.class);
+                startActivity(intent);
                 break;
             case R.id.bModifyProduct:
+                intent = new Intent(this, ModifyProductActivity.class);
+                startActivity(intent);
                 break;
             case R.id.bRemoveCategory:
+                intent = new Intent(this, RemoveCategoryActivity.class);
+                startActivity(intent);
                 break;
             case R.id.bRemoveProduct:
+                intent = new Intent(this, RemoveProductActivity.class);
+                startActivity(intent);
                 break;
         }
     }

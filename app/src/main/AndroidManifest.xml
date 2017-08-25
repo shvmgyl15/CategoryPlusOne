@@ -30,7 +30,14 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.bb.shivam.categoryplusone.MainActivity" />
         </activity>
-        <activity android:name=".AdminActivity"></activity>
+        <activity android:name=".AdminActivity" />
+        <activity android:name=".AddCategoryActivity" />
+        <activity android:name=".AddSubCategoryActivity" />
+        <activity android:name=".AddProductActivity" />
+        <activity android:name=".ModifyCategoryNameActivity" />
+        <activity android:name=".ModifyProductActivity" />
+        <activity android:name=".RemoveCategoryActivity" />
+        <activity android:name=".RemoveProductActivity"></activity>
     </application>
 
 </manifest>
