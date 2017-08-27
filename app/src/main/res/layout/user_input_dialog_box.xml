@@ -6,11 +6,11 @@
     android:orientation="vertical"
     android:padding="16dp">
 
-    <TextView
-        android:id="@+id/tVDialog"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TextView" />
+    <!--<TextView-->
+        <!--android:id="@+id/tVDialog"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="TextView" />-->
 
     <EditText
         android:id="@+id/userInputDialog"
@@ -19,27 +19,27 @@
         android:hint="Enter Something"
         android:selectAllOnFocus="true"
         android:inputType="text" />
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal">-->
 
-        <Button
-            android:id="@+id/btn_cancel"
-            style="@style/Widget.AppCompat.Button.Borderless"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.5"
-            android:text="CANCEL" />
+        <!--<Button-->
+            <!--android:id="@+id/btn_cancel"-->
+            <!--style="@style/Widget.AppCompat.Button.Borderless"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="0.5"-->
+            <!--android:text="CANCEL" />-->
 
-        <Button
-            android:id="@+id/btn_ok"
-            style="@style/Widget.AppCompat.Button.Borderless"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_weight="0.5"
-            android:gravity="center"
-            android:text="SAVE" />
-    </LinearLayout>
+        <!--<Button-->
+            <!--android:id="@+id/btn_ok"-->
+            <!--style="@style/Widget.AppCompat.Button.Borderless"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_weight="0.5"-->
+            <!--android:gravity="center"-->
+            <!--android:text="SAVE" />-->
+    <!--</LinearLayout>-->
 </LinearLayout>
