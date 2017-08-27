@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Intent intent;
         switch (view.getId()){
             case R.id.bAdmin:
-                intent = new Intent(this, LoginActivity.class);
+                intent = new Intent(this, AdminPlusActivity.class);
                 startActivity(intent);
                 break;
             case R.id.bMenu:

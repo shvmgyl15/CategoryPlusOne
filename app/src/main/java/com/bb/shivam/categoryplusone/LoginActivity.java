@@ -336,16 +336,16 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             }
 
             // TODO: register the new account here.
-            return true;
+            return false;
         }
 
         @Override
         protected void onPostExecute(final Boolean success) {
             mAuthTask = null;
             showProgress(false);
-
+            System.err.println(success);
             if (success) {
-                Intent intent = new Intent(LoginActivity.this, AdminActivity.class);
+                Intent intent = new Intent(LoginActivity.this, AdminPlusActivity.class);
                 startActivity(intent);
                 finish();
             } else {
